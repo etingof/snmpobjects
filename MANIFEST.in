@@ -1,0 +1,4 @@
+include *.txt *.md
+recursive-include docs/source *.rst *.conf *.svg *.ico *.py
+recursive-include docs Makefile
+prune docs/build
